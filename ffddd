@@ -1,0 +1,32 @@
+<html>
+<body>
+<h2>Student Registration Form</h2>
+
+<form>
+Name: <input type="text"><br><br>
+Email: <input type="email"><br><br>
+Password: <input type="password"><br><br>
+Mobile: <input type="number"><br><br>
+DOB: <input type="date"><br><br>
+
+Gender:
+<input type="radio" name="g">Male
+<input type="radio" name="g">Female
+<br><br>
+
+Course:
+<select>
+<option>CSE</option>
+<option>AI</option>
+<option>ECE</option>
+</select>
+<br><br>
+
+Address: <textarea></textarea><br><br>
+
+<input type="submit" value="Register">
+<input type="reset" value="Clear">
+</form>
+
+</body>
+</html>
